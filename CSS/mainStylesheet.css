@@ -315,6 +315,9 @@
     text-align: center;
 }
 #submitButton{
+    color: #FFF;
+    border: none;
+    background: transparent;
     font-size: 16px;
 }
 #footerMainFrame{
