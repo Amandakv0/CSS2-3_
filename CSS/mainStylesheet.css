@@ -148,7 +148,7 @@
 #mainParag{
     display: inline-block;
     width: 100%;
-    max-width: 905px;
+    max-width: 1200px;
     text-align: center;
     
 }
@@ -158,7 +158,8 @@
     margin: 0;
     color: #000;
 }
-#loremIpsum{
+#loremIpsum, #loremPa{
+    display: inline-block;
     color: #535862;
     margin: 0;
     text-align: center;
