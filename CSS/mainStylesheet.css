@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 #navBarMainFrame{
-    box-sizing: content-box;
-    max-width: 1000px;
+    max-width: 1080px;
     width: 100%;
-    height: 48px;
     padding: 12px 24px;
     margin-left: auto;
     background-color: #F7F4FF;
@@ -15,13 +13,11 @@
 #navBarContentMainFrame{
     width: 100%;
     max-width: 1183px;
-    height: 48px;
     margin: 0 auto;
     text-align: center;
 }
 #logoNextMove{
     width: 147px;
-    height: 21px;
     padding: 14px;
     display: inline-block;
 }
@@ -50,7 +46,6 @@
     font-size: 18px;
 }
 #help{
-    margin: 0;
     display: inline-block;
     padding: 20px;
     color: #323232;
@@ -64,17 +59,17 @@
 }
 #contactUsFrame{
     display: inline-block;
-    box-sizing: content-box;
-    width: 73px;
-    height: 17px;
+    background-color: transparent;
+    width: 110px;
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #8E26C0;
     margin-left: 58px;
-    align-items: center;
-    1px solid #8E26C0;
+    text-align: center;
+    border: 1px solid #8E26C0;
 }
 #cotactParag{
+    text-decoration-line: none;
     color: #8E26C0;
     display: inline-block;
     font-size: 14px;
@@ -83,8 +78,8 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    height: 458px;
     margin-top: 142px;
+    margin-bottom: 60px;
     display: inline-block;
 }
 #whatWeOfferContentFrame{
@@ -92,7 +87,6 @@
     max-width: 800px;
     width: 100%;
     vertical-align: top;
-    height: 300px;
 }
 #offerHeader{
     max-width: 800px;
@@ -101,11 +95,9 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    margin: 0;
     display: inline-block;
 }
 #offerParag{
-    margin: 0;
     padding: 16px;
     max-width: 800px;
     width: 100%;
@@ -118,26 +110,21 @@
 #orderedListFrame{
     text-align: left;
     width: 330px;
-    height: 160px;
     margin-left: 45px;
 }
 #listedItemStyle{
-    margin: 0;
     color: #000;
     font-size: 24px;
     font-weight: 400;
-    line-height: 32px;
 }
 #lastMainFrame{
     max-width: 880px;
     width: 100%;
-    height: 600px;
     margin: 0 auto;
 }
 #firstInnerFrame{
     max-width: 600px;
     width: 100%;
-    height: 140px;
     margin: 0 auto;
 }
 #ContactUsMainBigFrame{
@@ -155,17 +142,19 @@
 #contactSecondHeader{
     font-size: 56px;
     text-align: center;
-    margin: 0;
     color: #000;
 }
-#loremIpsum, #loremPa{
+#loremIpsum{
     display: inline-block;
     color: #535862;
-    margin: 0;
     text-align: center;
     font-size: 20px;
     padding-top: 18px;
-    padding-bottom: 28px;
+}
+#loremPa{
+    color: #535862;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 #lastMainPurpleFraim{
     width: 100%;
@@ -177,12 +166,12 @@
     text-align: justify;
 }
 #whiteBoardMainFrame {
+    height: 390px;
     display: inline-block;
     padding: 20px;
     width: 364px;
     border-radius: 16px;
     background: #FFF;
-    height: 406px;
 }
 #addressMainFrame{
     width: 100%;
@@ -271,7 +260,8 @@
     border-radius: 8px;
     border: 1px solid #8E26C0;
     padding: 8px 16px;  
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
     margin-bottom: 24px;
     display: block;
 }
@@ -283,12 +273,14 @@
     border-radius: 8px;
     border: 1px solid #8E26C0;
     padding: 8px 16px;
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
     margin-bottom: 24px;
     display: block;  
 }
 #textBox{
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
     height: 122px;
     padding: 12px 16px;
     border-radius: 8px;
@@ -303,7 +295,8 @@
     vertical-align: top;
 }
 #submitButtonPosition{
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
     text-align: right;
 }
 #submitButtonFrame{
@@ -321,17 +314,17 @@
     font-size: 16px;
 }
 #footerMainFrame{
+    margin-top: 250px;
     width: 100%;
+    padding: 60px 200px;
     background-color: #53389E;
 }
 #colMainFrame{
     font-size: 12px;
     color: #FFF;
     width: 100%;
-    padding: 64px 80px 48px 80px;
     vertical-align: top;
-    margin-top: 400px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
     text-align: center;
 }
 #secondCol, #thirdCol, #firstCol,
@@ -390,16 +383,12 @@
 #SaaSCenter, #marketplaces, #ecommerce {
     padding: 13px;
 }
-#lastFooterFrame{
-    height: 100px;
-    width: 800px;
-    margin: 0 auto;
-}
+
 #footerInnerFrame{  
     padding-top: 32px;
-    display: inline-block;
     width: 100%;
-    max-width: 800px;
+    max-width: 930px;
+    margin: 0 auto;
     border-top: 1px solid #7F56D9;
 }
 #footerImgFrame{
@@ -407,7 +396,13 @@
     vertical-align: middle;
     display: inline-block;
     text-align: left;
-    margin-right: 350px;
+    width: 270px;
+}
+#copyDiv{
+    max-width: 400px;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
 }
 #footerLogo{
     width: 142px;
